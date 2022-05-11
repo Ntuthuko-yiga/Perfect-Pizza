@@ -1,0 +1,62 @@
+body {
+    background-color: blueviolet;
+
+}
+.Large-Pizza {
+    background-color: aqua;
+    border: 5px solid aqua;
+    padding: 1em;
+    margin: 1 em;
+    margin-left: 0.5em;
+    border-radius: 1em;
+
+}
+.Medium-Pizza {
+    background-color: aqua;
+    border: 5px solid aqua;
+    padding: 1em;
+    margin: 1 em;
+    margin-left: 0.5em;
+    border-radius: 1em;
+}
+.Small-Pizza {
+    background-color: aqua;
+    border: 5px solid aqua;
+    padding: 1em;
+    margin: 1 em;
+    margin-left: 0.5em;
+    border-radius: 1em;
+}
+
+
+.container {
+    width: 967px;
+    height: 693px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+@media (min-width: 968px) {
+    body {background-color: brown}
+}
+.Contact-details {
+    background-color: aqua;
+    border: 2px solid aqua;
+    padding: 1em;
+    margin: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+
+}
+.Pizzas {
+    display: flex;
+    width: 967px;
+    height: 693px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+
+}
