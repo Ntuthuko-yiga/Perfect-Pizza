@@ -1,62 +1,38 @@
 body {
-    background-color: blueviolet;
-
-}
-.Large-Pizza {
-    background-color: aqua;
-    border: 5px solid aqua;
-    padding: 1em;
-    margin: 1 em;
-    margin-left: 0.5em;
-    border-radius: 1em;
-
-}
-.Medium-Pizza {
-    background-color: aqua;
-    border: 5px solid aqua;
-    padding: 1em;
-    margin: 1 em;
-    margin-left: 0.5em;
-    border-radius: 1em;
-}
-.Small-Pizza {
-    background-color: aqua;
-    border: 5px solid aqua;
-    padding: 1em;
-    margin: 1 em;
-    margin-left: 0.5em;
-    border-radius: 1em;
+    background-image: url(https://media.istockphoto.com/photos/hawaiian-pizza-with-ham-and-pineapple-picture-id1349383878?b=1&k=20&m=1349383878&s=170667a&w=0&h=3AbAQ2fZXl0BYLr11F_E8C_OxM_-VP9ZIFJ8n185sVg=
+    );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-.container {
-    width: 967px;
-    height: 693px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-}
-@media (min-width: 968px) {
-    body {background-color: brown}
-}
-.Contact-details {
-    background-color: aqua;
-    border: 2px solid aqua;
-    padding: 1em;
-    margin: 0.5em;
-    margin-left: 0.5em;
+.Header {
+    background-color: white;
     border-radius: 0.5em;
-    margin-top: 1em;
-
 }
-.Pizzas {
-    display: flex;
-    width: 967px;
-    height: 693px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-
+.Small-Pizza{
+    background-color: aqua;
+    border: 3px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.Medium-Pizza{
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.Large-Pizza{
+    background-color: firebrick;
+    border: 3px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.Contact-details{
+    background-color: darkgoldenrod;
+    border: 3px solid black;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
 }
