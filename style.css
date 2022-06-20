@@ -44,22 +44,22 @@ body {
 @media(min-width:960px) {
    
 .Container {
-    display:flex;
+    display: flex;
     align-content: center;
 }
 .align {
     align-content: center;
+    vertical-align: middle;
+}
+.pizza {
+    align-content: center;
+    
 }
 
 }
-.Container {
-    text-align: center;
+.pizza {
     display: flex;
-    vertical-align: middle;
-}
-.ALL {
     align-content: center;
-    display: flex;
     vertical-align: middle;
-    
+    /* margin: 10em; */
 }
