@@ -52,3 +52,14 @@ body {
 }
 
 }
+.Container {
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+}
+.ALL {
+    align-content: center;
+    display: flex;
+    vertical-align: middle;
+    
+}
