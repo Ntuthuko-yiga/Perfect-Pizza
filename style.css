@@ -11,23 +11,28 @@ body {
 .Small-Pizza{
     background-color: aqua;
     border: 3px solid black;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
+    margin: 1em;
 }
 .Medium-Pizza{
     background-color: cornflowerblue;
     border: 3px solid black;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
+    margin: 1em;
+    
 }
 .Large-Pizza{
     background-color: firebrick;
     border: 3px solid black;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
+    margin: 1em;
+    
 }
 .Contact-details{
     background-color: darkgoldenrod;
@@ -35,4 +40,15 @@ body {
     padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
+}
+@media(min-width:960px) {
+   
+.Container {
+    display:flex;
+    align-content: center;
+}
+.align {
+    align-content: center;
+}
+
 }
