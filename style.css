@@ -1,41 +1,51 @@
 body {
-    background-image: url(https://media.istockphoto.com/photos/hawaiian-pizza-with-ham-and-pineapple-picture-id1349383878?b=1&k=20&m=1349383878&s=170667a&w=0&h=3AbAQ2fZXl0BYLr11F_E8C_OxM_-VP9ZIFJ8n185sVg=
-    );
+    /* background-image: url(https://media.istockphoto.com/photos/hawaiian-pizza-with-ham-and-pineapple-picture-id1349383878?b=1&k=20&m=1349383878&s=170667a&w=0&h=3AbAQ2fZXl0BYLr11F_E8C_OxM_-VP9ZIFJ8n185sVg=
+    ); */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Header {
-    background-color: white;
+    background-color:aqua;
     border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
 }
 .Small-Pizza{
-    background-color: aqua;
+    background-color: #e9c46a;
     border: 3px solid black;
     padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
     margin: 1em;
+    width: 20em;
+    height: 30em;
+    text-align: center;
 }
 .Medium-Pizza{
-    background-color: cornflowerblue;
+    background-color: #e76f51;
     border: 3px solid black;
     padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
     margin: 1em;
-    
+    width: 20em;
+    height: 30em;
+    text-align: center;
 }
 .Large-Pizza{
-    background-color: firebrick;
+    background-color: #f4a261;
     border: 3px solid black;
     padding: 1em;
     border-radius: 1em;
     margin-bottom: 1em;
     margin: 1em;
-    
+    width: 20em;
+    height: 30em;
+    text-align: center;
 }
 .Contact-details{
-    background-color: darkgoldenrod;
+    background-color: #fb8500;
     border: 3px solid black;
     padding: 1em;
     border-radius: 1em;
@@ -43,12 +53,32 @@ body {
 }
 @media(min-width:960px) {
    
-.Container {
+/* .Container {
     display:flex;
     align-content: center;
-}
+    background-color: blueviolet;
+} */
 .align {
     align-content: center;
 }
 
+}
+.pizza {
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    margin-bottom: 1em;
+    padding: 1em;
+    
+}
+/* .Container {
+    display:flex;
+    align-content: center;
+    background-color: blueviolet;
+} */
+/* .all {
+    display: flex;
+} */
+body {
+    background-color: #457b9d;
 }
